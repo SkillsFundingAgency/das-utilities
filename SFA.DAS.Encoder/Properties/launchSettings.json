@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SFA.DAS.Encoder": {
+      "commandName": "Project",
+      "commandLineArgs": "pair VN48RP"
+    }
+  }
+}
