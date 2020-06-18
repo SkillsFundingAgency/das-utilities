@@ -1,0 +1,32 @@
+[
+  {
+    "AccountProviderId": 10005077,
+    "AccountId": 8194,
+    "AccountPublicHashedId": "7YRV9B",
+    "AccountName": "MegaCorp Inc",
+    "AccountLegalEntityId": 2817,
+    "AccountLegalEntityPublicHashedId": "XEGE5X",
+    "AccountLegalEntityName": "Mega Corp Pharmaceuticals",
+    "Permissions": ["CreateCohort"]
+  },
+  {
+    "AccountProviderId": 10005077,
+    "AccountId": 8194,
+    "AccountPublicHashedId": "7YRV9B",
+    "AccountName": "MegaCorp Inc",
+    "AccountLegalEntityId": 2818,
+    "AccountLegalEntityPublicHashedId": "XJGZ72",
+    "AccountLegalEntityName": "Mega Corp Bank",
+    "Permissions": ["CreateCohort"]
+  },
+  {
+    "AccountProviderId": 10005077,
+    "AccountId": 30060,
+    "AccountPublicHashedId": "7Y94BK",
+    "AccountName": "Rapid Logistics Co Ltd",
+    "AccountLegalEntityId": 645,
+    "AccountLegalEntityPublicHashedId": "X9JE72",
+    "AccountLegalEntityName": "Rapid Logistics Co Ltd",
+    "Permissions": ["CreateCohort"]
+  }
+]
