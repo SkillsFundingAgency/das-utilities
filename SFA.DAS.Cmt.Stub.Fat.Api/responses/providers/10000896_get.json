@@ -1,0 +1,33 @@
+{
+  "Ukprn": 10000896,
+  "IsHigherEducationInstitute": false,
+  "Hei": false,
+  "ProviderName": "Like a Pro Education Inc.",
+  "CurrentlyNotStartingNewApprentices": false,
+  "IsEmployerProvider": false,
+  "Uri": "https://sfa-stub-fat-api.herokuapp.com/providers/10000896",
+  "Phone": "01273 890454",
+  "Email": "chrisfoster186+likeapro@googlemail.com",
+  "NationalProvider": false,
+  "Website": "http://www.likeapro.org/",
+  "EmployerSatisfaction": 82,
+  "LearnerSatisfaction": 0,
+  "Addresses": [
+    {
+      "ContactType": "LEGAL",
+      "Street": "Test Street",
+      "Town": "Test Town",
+      "PostCode": "TTT 123"
+    },
+    {
+      "ContactType": "PRIMARY",
+      "Street": "Test Street",
+      "Town": "Test Town",
+      "PostCode": "TTT 123"
+    }
+  ],
+  "MarketingInfo": "",
+  "HasParentCompanyGuarantee": false,
+  "IsNew" : false,
+  "IsLevyPayerOnly": false
+}

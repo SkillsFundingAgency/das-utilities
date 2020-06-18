@@ -1,0 +1,100 @@
+[{
+  "Ukprn": 10005077,
+  "IsHigherEducationInstitute": false,
+  "Hei": false,
+  "ProviderName": "Train-U-Good Corporation",
+  "CurrentlyNotStartingNewApprentices": false,
+  "IsEmployerProvider": false,
+  "Uri": "https://sfa-stub-fat-api.herokuapp.com/providers/10005077",
+  "Phone": "01273 890454",
+  "Email": "chrisfoster186+trainugood@googlemail.com",
+  "NationalProvider": false,
+  "Website": "http://www.trainugood.org/",
+  "EmployerSatisfaction": 82,
+  "LearnerSatisfaction": 0,
+  "Addresses": [
+    {
+      "ContactType": "LEGAL",
+      "Street": "Test Street",
+      "Town": "Test Town",
+      "PostCode": "TTT 123"
+    },
+    {
+      "ContactType": "PRIMARY",
+      "Street": "Test Street",
+      "Town": "Test Town",
+      "PostCode": "TTT 123"
+    }
+  ],
+  "MarketingInfo": "Train-U-Good is awesome",
+  "HasParentCompanyGuarantee": false,
+  "IsNew" : false,
+  "IsLevyPayerOnly": false
+},
+  {
+    "Ukprn": 10038368,
+    "IsHigherEducationInstitute": false,
+    "Hei": false,
+    "ProviderName": "Amazing Training Ltd",
+    "CurrentlyNotStartingNewApprentices": false,
+    "IsEmployerProvider": false,
+    "Uri": "https://sfa-stub-fat-api.herokuapp.com/providers/10038368",
+    "Phone": "01273 890454",
+    "Email": "chrisfoster186+amazingtraining@googlemail.com",
+    "NationalProvider": false,
+    "Website": "http://www.amazing-training.org/",
+    "EmployerSatisfaction": 82,
+    "LearnerSatisfaction": 0,
+    "Addresses": [
+      {
+        "ContactType": "LEGAL",
+        "Street": "Test Street",
+        "Town": "Test Town",
+        "PostCode": "TTT 123"
+      },
+      {
+        "ContactType": "PRIMARY",
+        "Street": "Test Street",
+        "Town": "Test Town",
+        "PostCode": "TTT 123"
+      }
+    ],
+    "MarketingInfo": "",
+    "HasParentCompanyGuarantee": false,
+    "IsNew" : false,
+    "IsLevyPayerOnly": false
+  },
+  {
+    "Ukprn": 10000896,
+    "IsHigherEducationInstitute": false,
+    "Hei": false,
+    "ProviderName": "Like a Pro Education Inc.",
+    "CurrentlyNotStartingNewApprentices": false,
+    "IsEmployerProvider": false,
+    "Uri": "https://sfa-stub-fat-api.herokuapp.com/providers/10000896",
+    "Phone": "01273 890454",
+    "Email": "chrisfoster186+likeapro@googlemail.com",
+    "NationalProvider": false,
+    "Website": "http://www.likeapro.org/",
+    "EmployerSatisfaction": 82,
+    "LearnerSatisfaction": 0,
+    "Addresses": [
+      {
+        "ContactType": "LEGAL",
+        "Street": "Test Street",
+        "Town": "Test Town",
+        "PostCode": "TTT 123"
+      },
+      {
+        "ContactType": "PRIMARY",
+        "Street": "Test Street",
+        "Town": "Test Town",
+        "PostCode": "TTT 123"
+      }
+    ],
+    "MarketingInfo": "",
+    "HasParentCompanyGuarantee": false,
+    "IsNew" : false,
+    "IsLevyPayerOnly": false
+  }
+]

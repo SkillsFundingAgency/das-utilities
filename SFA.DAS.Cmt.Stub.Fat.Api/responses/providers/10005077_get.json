@@ -1,0 +1,33 @@
+{
+  "Ukprn": 10005077,
+  "IsHigherEducationInstitute": false,
+  "Hei": false,
+  "ProviderName": "Train-U-Good Corporation",
+  "CurrentlyNotStartingNewApprentices": false,
+  "IsEmployerProvider": false,
+  "Uri": "https://sfa-stub-fat-api.herokuapp.com/providers/10005077",
+  "Phone": "01273 890454",
+  "Email": "chrisfoster186+trainugood@googlemail.com",
+  "NationalProvider": false,
+  "Website": "http://www.trainugood.org/",
+  "EmployerSatisfaction": 82,
+  "LearnerSatisfaction": 0,
+  "Addresses": [
+    {
+      "ContactType": "LEGAL",
+      "Street": "Test Street",
+      "Town": "Test Town",
+      "PostCode": "TTT 123"
+    },
+    {
+      "ContactType": "PRIMARY",
+      "Street": "Test Street",
+      "Town": "Test Town",
+      "PostCode": "TTT 123"
+    }
+  ],
+  "MarketingInfo": "Train-U-Good is awesome",
+  "HasParentCompanyGuarantee": false,
+  "IsNew" : false,
+  "IsLevyPayerOnly": false
+}
