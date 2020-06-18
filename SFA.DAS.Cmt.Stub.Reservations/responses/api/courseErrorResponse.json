@@ -1,0 +1,9 @@
+{
+  "ValidationErrors" : [
+    {
+      "PropertyName" : "CourseCode",
+      "Reason": "Course is invalid for reservation",
+      "Code": "BadTrainingCode"
+    }
+  ]
+}
