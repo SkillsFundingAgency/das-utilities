@@ -1,0 +1,17 @@
+    
+div(class="tabs tabs-style-topline")
+    nav
+        ul
+            li(class= selectedTab ==="stubs" ? "tab-current" : "")
+                a(href='/')
+                    span Stubs
+            li(class= selectedTab === "employers" ? "tab-current" : "")
+                a(href='/employers')
+                    span Employers
+            li(class= selectedTab === "providers" ? "tab-current" : "")
+                a(href='/providers')
+                    span Providers
+            li(class= selectedTab ==="encoding" ? "tab-current" : "")
+                a(href='/encode')
+                    span Encoding
+                    

@@ -1,0 +1,49 @@
+html
+    head
+        title Misc Helpers
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css")
+        style
+            include styles/tabs.css
+            include styles/tabstyles.css
+    body
+        
+        div(class="container")
+            div(class="page-header")
+                h1 Misc Helpers
+            
+            include includes/tabs.pug
+                
+            section(id="section-topline-2")
+            
+                br
+                
+                em Do not use - does not encode the same as .net implementation!
+                br
+                br
+                    
+                form(method='POST' action='/encode')
+    
+                    div.form-group(class="row")
+    
+                        div(class="col")
+    
+    
+                            input#name.form-control(type='text', placeholder='Encode/Decode' name='inputValue' value=result)
+    
+                        div(class="col")
+    
+                            select.form-control(name='selectedEncoding')
+                                each encodingOption in encodings
+                                    option(value=encodingOption.EncodingType, selected=(encodingOption.EncodingType === selectedEncoding)) #{encodingOption.EncodingType}
+    
+                        div(class="col")
+                            button.btn.btn-primary(type='submit') Go
+    
+                div
+                    span(class="font-weight-bold") Entered value: 
+                    span #{inputValue} 
+                div
+                    span(class="font-weight-bold") Output: 
+                    span #{result}
+
+

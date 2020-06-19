@@ -1,0 +1,71 @@
+html
+    head
+        title Misc Helpers
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css")
+        script(src="https://kit.fontawesome.com/42f3332358.js")
+        style
+            include styles/tabs.css
+            include styles/tabstyles.css
+    body
+
+
+        div(class="container")
+            div(class="page-header")
+                h1 Misc Helpers
+
+            include includes/tabs.pug
+            br
+            
+            div(class="card")
+                div(class="card-header")
+                    h5 MegaCorp
+                div(class="card-body")
+                    p(class="card-text") A large levy paying employer account acting as Transfer Sender; multiple legal entities
+                    div (8194 - VN48RP private / 7YRV9B public)
+                        ul
+                            li MegaCorp Pharma (? private / XEGE5X public)
+                            li MegaCorp Bank (? private / XJGZ72 public)
+
+                    a(href="https://localhost:44348/commitments/accounts/VN48RP/apprentices/home") MegaCorp EmployerCommitments Home
+                    div Username: foster186@hotmail.com 
+                        span(class="badge badge-secondary") Owner
+                        span &nbsp;or chrisfoster186+toby@googlemail.com 
+                        span(class="badge badge-secondary") Viewer
+                    div Password: DevTestingPassword123
+
+                    br
+                    a(href="http://localhost:3200/VN48RP") MegaCorp Transfers Dashboard (requires local stub)
+
+            br
+            br
+            div(class="card")
+                div(class="card-header")
+                    h5 Rapid Logistics
+                div(class="card-body")
+
+                    p(class="card-text") A small employer acting as Transfer Receiver; single legal entity of the same name
+                    div Rapid Logistics Co Ltd (AccountId: 30060 - VNR6P9 private, 7Y94BK public), AleId 645 (public hash X9JE72)
+    
+                    br
+                    a(href="https://localhost:44348/commitments/accounts/VNR6P9/apprentices/home") Rapid Logistics EmployerCommitments Home
+                    div Username: chrisfoster186+test2@googlemail.com <span class="badge badge-secondary">Owner</span>
+                    div Password: DevTestingPassword123
+            
+            br
+            br
+            div(class="card")
+                div(class="card-header")
+                    h5 Positivity Ltd
+                div(class="card-body")
+    
+                    p(class="card-text") A small employer without a signed agreement; single legal entity of the same name
+    
+                    div Positivity Ltd (AccountId: 36853 - MBWGGD private, 78KDD4 public), AleId 701 (public hash XKD5Z2)
+    
+                    br
+                    a(href="https://localhost:44348/commitments/accounts/MBWGGD/apprentices/home") Positivity Ltd EmployerCommitments Home
+                    div Username: chrisfoster186+positivity@googlemail.com <span class="badge badge-secondary">Owner</span>
+                    div Password: DevTestingPassword123
+                        
+            br
+            br

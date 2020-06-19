@@ -1,0 +1,20 @@
+{
+  "name": "sfa-cmt-helpers",
+  "version": "1.0.0",
+  "description": "Misc helpers for SFA dev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.4",
+    "hashids": "^1.2.2",
+    "mongoose": "^5.0.4",
+    "node.js": "0.0.0",
+    "npm": "^6.7.0",
+    "pug": "^2.0.3"
+  }
+}
